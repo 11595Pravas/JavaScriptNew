@@ -1,4 +1,5 @@
 // Array
+//node .devcontainer/02.Basic/array.js
 
 // const myArr=[11,2,3,4,5]
 // const myFrnd=["deep","chik"]
