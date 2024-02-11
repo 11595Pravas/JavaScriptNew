@@ -52,12 +52,29 @@ const user=[
 
 //console.log( user[1].name);
 
-console.log(tinderUser2);
-console.log(Object.keys(tinderUser2));
-console.log(Object.values(tinderUser2));
-console.log(Object.entries(tinderUser2));
+// console.log(tinderUser2);
+// console.log(Object.keys(tinderUser2));
+// console.log(Object.values(tinderUser2));
+// console.log(Object.entries(tinderUser2));
 
-console.log(tinderUser2.hasOwnProperty('age'));
+// console.log(tinderUser2.hasOwnProperty('age'));
+
+
+//object destructureing
+
+const course={
+    coursename: "js in hindi",
+    courseInstructure:"pravas",
+    price:899
+}
+
+//console.log(course.courseInstructure);
+const {courseInstructure:a}=course
+console.log(a);
+
+
+
+
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++
 
