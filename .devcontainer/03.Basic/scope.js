@@ -1,3 +1,4 @@
+// node .devcontainer/03.Basic/scope.js
 let a=100
 if(true){
     let a=10
