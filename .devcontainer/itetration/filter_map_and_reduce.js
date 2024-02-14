@@ -66,28 +66,28 @@
 // const total=number.reduce( (acc,currval)=>{return acc+currval},9 )
 // console.log(total);
 
-const shoppingCart=[
-    {
-        itenName:"js course",
-        price:2999
-    },
-    {
-        itenName:"py course",
-        price:999
-    },
-    {
-        itenName:"c course",
-        price:3999
-    },
-    {
-        itenName:"java course",
-        price:5999
-    },
-    {
-        itenName:"DSA course",
-        price:9999
-    }
-]
+// const shoppingCart=[
+//     {
+//         itenName:"js course",
+//         price:2999
+//     },
+//     {
+//         itenName:"py course",
+//         price:999
+//     },
+//     {
+//         itenName:"c course",
+//         price:3999
+//     },
+//     {
+//         itenName:"java course",
+//         price:5999
+//     },
+//     {
+//         itenName:"DSA course",
+//         price:9999
+//     }
+// ]
 
-const totalcart=shoppingCart.reduce( (acc,item)=>acc + item.price ,0)
-console.log(totalcart);
+// const totalcart=shoppingCart.reduce( (acc,item)=>acc + item.price ,0)
+// console.log(totalcart);
